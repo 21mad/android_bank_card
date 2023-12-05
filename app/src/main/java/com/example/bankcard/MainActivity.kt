@@ -16,7 +16,7 @@ class NewActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.mainactivity)
         inputA = findViewById(R.id.editTextA)
         result = findViewById(R.id.textView)
         newBtn = findViewById(R.id.button)
